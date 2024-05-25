@@ -5,13 +5,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Services
 
-Speakers & Headphones
-Gaming PC Build
-Sound Equipments
-Office Room Setup
-Smart Décor Gadgets
-Gaming Room Setup
-PC Components
-Sound System Setup
-Office PC Build
-Consultation & Repair
+Speakers & Headphones <br />
+Gaming PC Build <br />
+Sound Equipments <br />
+Office Room Setup <br />
+Smart Décor Gadgets <br />
+Gaming Room Setup <br />
+PC Components <br />
+Sound System Setup <br />
+Office PC Build <br />
+Consultation & Repair <br />
