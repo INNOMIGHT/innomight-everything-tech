@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'Futura Medium';
+    src: url('./assets/fonts/FUTURA65MEDIUM.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Futura Medium', sans-serif;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.brand-logo {
+    height: 100px;
+    width: 300px;
+}
+.centered {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    margin-top: -100px;
+}
+
+li {
+    font-size: larger
+}
+.coming-soon {
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .social-icons a {
+    margin: 0 10px;
+    color: #555;
+    font-size: 1.5rem;
+    transition: color 0.3s;
   }
-  to {
-    transform: rotate(360deg);
+  .social-icons a:hover {
+    color: #000;
   }
-}
